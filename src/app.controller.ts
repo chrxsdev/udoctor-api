@@ -1,13 +1,13 @@
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
-import { SimpleResponse } from './common/interfaces/basic-response.interface';
+import { Response } from './common/interfaces/response.interface';
 
 @Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
-  getHello(): SimpleResponse {
+  getBasicInformation(): Response {
     return this.appService.getStarter();
   }
 }

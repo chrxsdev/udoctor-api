@@ -6,6 +6,10 @@
 # folders
 /public/diagrams
 
+# env
+.env
+.env.*
+
 # Logs
 logs
 *.log

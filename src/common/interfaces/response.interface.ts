@@ -1,6 +1,6 @@
 import { HttpStatus } from '@nestjs/common';
 
-export interface SimpleResponse {
+export interface Response {
   httpStatus: HttpStatus,
   message: string | null,
   details?: string | string[] | null,

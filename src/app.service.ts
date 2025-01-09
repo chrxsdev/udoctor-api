@@ -1,11 +1,11 @@
 import { HttpStatus, Injectable } from '@nestjs/common';
-import { SimpleResponse } from './common/interfaces/basic-response.interface';
+import { Response } from './common/interfaces/response.interface';
 
 @Injectable()
 export class AppService {
 
-  // Getting Starter
-  getStarter(): SimpleResponse {
+  // Getting Started
+  getStarter(): Response {
     return {
       message: 'UDoctor API v1',
       httpStatus: HttpStatus.OK,  
