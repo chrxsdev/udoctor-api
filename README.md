@@ -33,9 +33,6 @@ The server utilizes PostgreSQL as database. To run the server, it is necessary t
 2. Run in dev mode with `npm run start:dev`
 3. Run in prod mode with `npm run start:prod`
 
-> Important:
-In order for some data on the landing page to load, admin & user panel, the [backend server](https://github.com/chrisjosuedev/xatruch-barbershop-rest-api) needs to be configured.
-
 ## 🦀 Technologies
 ![Nodejs](https://img.shields.io/badge/node-js-brightgreen)
 ![Nestjs](https://img.shields.io/badge/nest-js-red)
